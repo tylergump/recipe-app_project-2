@@ -1,0 +1,32 @@
+<fieldset>
+  <legend>Edit Recipe</legend>
+  <!-- TITLE -->
+  <div class="form-group">
+    <label for="recipe-title">Title</label><br>
+    <input class="form-control" id="recipe-title" type="text" name="title" value="{{recipe.title}}"/>
+  </div>
+
+  <!-- AUTHOR -->
+  <div class="form-group">
+    <label for="author">Author</label><br>
+    <input class="form-control" id="author" type="text" name="author" value="{{recipe.author}}" />
+  </div>
+
+  <!-- IMAGE -->
+  <div class="form-group">
+    <label for="recipe-image">Picture</label><br>
+    <input class="form-control" id="recipe-image" type="text" name="image" value="{{recipe.image}}"/>
+  </div>
+
+  <!-- INGREDIENTS -->
+  <div class="form-group">
+    <label for="recipe-ingredients">Ingredients</label><br>
+    <textarea class="form-control" id="recipe-ingredients" name="ingredients" rows="10" />{{recipe.ingredients}}</textarea>
+  </div>
+
+    <!-- RECIPE -->
+  <div class="form-group">
+    <label for="recipe-recipe">Recipe</label><br>
+    <textarea class="form-control" id="recipe-recipe" name="recipe" rows="10" />{{recipe.recipe}}</textarea>
+  </div>
+</fieldset>

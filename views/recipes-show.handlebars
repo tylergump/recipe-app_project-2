@@ -1,0 +1,23 @@
+<a href="/">Back to Home</a>
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <h1>{{recipe.title}}</h1>
+<small class="text-muted">Published on: {{recipe.createdAt}}</small>
+    <h2>{{recipe.author}}</h2>
+    <img src="{{recipe.image}}" alt="">
+    <p><a href="/recipes/{{recipe._id}}/edit">Edit</a></p>
+    <p><form method="POST" action="/recipes/{{recipe._id}}?_method=DELETE">
+        <button class="btn btn-primary" type="submit">Delete</button>
+    </form></p>
+
+{{> comment-form}}
+
+    <hr>
+
+    <!-- Show Comments -->
+    {{#each comments}}
+      {{> comment}}
+    {{/each}}
+
+  </div>
+</div>

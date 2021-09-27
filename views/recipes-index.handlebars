@@ -1,0 +1,13 @@
+<!-- recipes-index -->
+<h1>Recipes</h1>
+
+<a href="/recipes/new">New Recipe</a>
+
+<div class="row">
+  {{#each recipes}}
+    <div class="col-md-3">
+      <h2><a href="/recipes/{{this._id}}">{{this.title}}</a></h2>
+      <a href="/recipes/{{this._id}}"><img src="{{this.image}}" alt="image"></a>
+    </div>
+  {{/each}}
+</div>
