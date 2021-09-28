@@ -4,4 +4,10 @@ body {
 
 img {
 	width: 300px;
+    max-height: auto;
+    /* margin: 10px; */
+}
+
+div {
+    margin: 10px;
 }

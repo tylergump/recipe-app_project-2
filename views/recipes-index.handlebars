@@ -10,9 +10,9 @@
 
 <div class="row">
   {{#each recipes}}
-    <div class="col-md-3">
+    <div class="col-md-4">
       <h2><a href="/recipes/{{this._id}}">{{this.title}}</a></h2>
-            By <p><a href="/recipes/{{this._id}}">{{this.author}}</a></p>
+            <p>By <a href="/recipes/{{this._id}}">{{this.author}}</a></p>
       <a href="/recipes/{{this._id}}"><img src="{{this.image}}" alt="image"></a>
     </div>
   {{/each}}
