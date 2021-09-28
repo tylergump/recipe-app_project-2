@@ -1,5 +1,6 @@
 body {
-    background-color: aqua;
+    /* background-image: url("fruits-seamless-pattern-fresh-healthy-organic-vitamin-food-vector-pictures-cartoon-colorful-background-125501144.jpeg"); */
+    background-color: ghostwhite;
 }
 
 img {
@@ -10,4 +11,20 @@ img {
 
 div {
     margin: 10px;
+}
+
+h1, h2, h3, p, a, title {
+    color: red;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.navbar {
+    background-color: orange;
+    font-weight: bolder;
+}
+
+textarea {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 }

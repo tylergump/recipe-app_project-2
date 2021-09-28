@@ -9,9 +9,9 @@
     <h1>{{recipe.title}}</h1>
 <small class="text-muted">Published on: {{recipe.createdAt}}</small>
     <h3>By {{recipe.author}}</h3>
-    <img src="{{recipe.image}}" alt="">
-        <p>{{recipe.ingredients}}</p>
-        <p>{{recipe.recipe}}</p>
+    <img src="{{recipe.image}}" alt=""><br>
+        Ingredients: <p>{{recipe.ingredients}}</p>
+        Recipe: <p>{{recipe.recipe}}</p>
 
     <p><a href="/recipes/{{recipe._id}}/edit">Edit</a></p>
     <p><form method="POST" action="/recipes/{{recipe._id}}?_method=DELETE">
