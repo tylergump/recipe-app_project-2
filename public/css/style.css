@@ -28,3 +28,7 @@ textarea {
     white-space: pre-wrap;
     overflow-wrap: break-word;
 }
+
+#hat {
+    width: 100px;
+}
