@@ -6,7 +6,6 @@ body {
 img {
 	width: 300px;
     max-height: auto;
-    /* margin: 10px; */
 }
 
 div {
@@ -19,10 +18,20 @@ h1, h2, h3, p, a, title {
     overflow-wrap: break-word;
 }
 
+
+/* .container-fluid {
+        display: flex;
+        justify-content: space-between;
+} */
+
 .navbar {
     background-color: orange;
     font-weight: bolder;
+    /* font-size: 100px; */
+    /* display: flex;
+    justify-content: space-between; */
 }
+
 
 textarea {
     white-space: pre-wrap;
@@ -31,4 +40,7 @@ textarea {
 
 #hat {
     width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
