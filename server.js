@@ -59,6 +59,6 @@ const comments = require('./controllers/commentController')(app);
 
   //LISTEN
 
-  app.listen(PORT, () => {
+  app.listen(process.env.PORT || 3000, () => {
     console.log('listening on port:', PORT);
   })
