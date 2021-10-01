@@ -8,9 +8,9 @@ img {
     max-height: auto;
 }
 
-div {
+/* div {
     margin: 10px;
-}
+} */
 
 h1, h2, h3, p, a, title {
     color: red;
@@ -22,17 +22,29 @@ h1, h2, h3, p, a, title {
 .container-fluid {
         display: flex;
         justify-content: space-between;
+        height: 100px;
 }
 
 .navbar {
     background-color: orange;
-    font-weight: bolder;
+    /* font-weight: bolder;
     font-size: 100px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
+#brand {
+    margin-top: -100px;
+    margin-bottom: -300px;
+    width: 300px;
+    max-height: auto;
 
+}
+
+#hat {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
 textarea {
     white-space: pre-wrap;
     overflow-wrap: break-word;
