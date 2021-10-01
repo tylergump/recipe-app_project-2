@@ -18,6 +18,16 @@ module.exports = function (app) {
         });
     });
 
+            // ABOUT
+            app.get('/recipes/about', (req, res) => {
+              try{
+                res.render("recipes-about")
+            } catch (err) {
+                res.send(err.message)
+                console.log(err.message)
+            }
+            })
+
     // NEW
 app.get('/recipes/new', (req, res) => {
     res.render('recipes-new', {title: "New Recipe"});
@@ -76,4 +86,6 @@ app.delete('/recipes/:id', function (req, res) {
     })
   })
   
+
   }
+
