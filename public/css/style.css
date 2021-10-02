@@ -1,11 +1,12 @@
 body {
     /* background-image: url("fruits-seamless-pattern-fresh-healthy-organic-vitamin-food-vector-pictures-cartoon-colorful-background-125501144.jpeg"); */
-    background-color: ghostwhite;
+    background-color: #6CDAEE
 }
 
 img {
-	width: 300px;
+	width: 200px;
     max-height: auto;
+    border-radius: 25%;
 }
 
 /* div {
@@ -13,12 +14,21 @@ img {
 } */
 
 h1, h2, h3, p, a, title {
-    color: red;
+    /* color: red; */
     white-space: pre-wrap;
     overflow-wrap: break-word;
 }
 
+.col-md-4 {
 
+    background-color: #5CDB95;
+    color: #EDF5E1;
+    margin: 10px;
+    padding: 10px;
+    max-height: fit-content;
+    max-width: fit-content;
+    border-radius: 5%;
+}
 .container-fluid {
         display: flex;
         justify-content: space-between;
@@ -44,12 +54,15 @@ h1, h2, h3, p, a, title {
 #hat {
     margin-top: 20px;
     margin-bottom: -30px;
+    width: 100px;
 }
 textarea {
     white-space: pre-wrap;
     overflow-wrap: break-word;
 }
 
-#hat {
-    width: 100px;
+#index-pic {
+    border-radius: 25%;
+    max-height: 100px;
+    max-width: 100px;
 }
