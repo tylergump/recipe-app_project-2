@@ -61,8 +61,17 @@ textarea {
     overflow-wrap: break-word;
 }
 
+#show-image {
+    max-height: 200px;
+    border-radius: 0%;
+}
+
 #index-pic {
     border-radius: 25%;
     max-height: 100px;
     max-width: 100px;
+}
+
+#king {
+    margin: 20px
 }
